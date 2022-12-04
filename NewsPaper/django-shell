@@ -1,0 +1,5 @@
+>>> from accounts.models import User
+>>> user1 = User.objects.create_user('a')
+>>> user2 = User.objects.create_user('b')
+
+
